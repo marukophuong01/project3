@@ -1,0 +1,106 @@
+    * {
+        box-sizing: border-box;
+    }
+    .body {
+        font-family: 'Roboto Slab', serif;
+    }
+    a:link {
+    text-decoration: none;
+    }
+    a:visited.header, a:active.header, a:link.header{
+        color: lightslategray;
+    }
+    a:hover.menu{
+        color: black;
+    }
+   
+    .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+
+    .banner{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px solid rgb(187, 184, 184);
+    } 
+    .absolute{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    }  
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+     
+    .header {
+    background-color: #3f434e;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    height: 65px;
+    font-family: 'Roboto Slab', serif;
+    }
+   .imgbody{
+    text-align: center;
+    }
+    .mimg{
+        text-align: center;
+        padding: 10px;
+    }
+    #text{
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    }
+    .footer{
+    padding: 15px;
+    text-align: justify;
+    padding-bottom: 30px;
+    font-family: 'Merriweather', serif;
+    
+}
+ 
+  @media only screen and (min-width: 768px) {
+    /* For tablets: */
+    
+  }
+  @media only screen and (min-width: 992px) {
+    /* For desktop: */
+    .header {
+        background-color: white;
+        color: #a59e9e;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;      
+          
+      }
+    .banner{
+        position: relative;
+        background-image: url(https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png);
+        width: 100%;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        } 
+    .absolute{
+            position: absolute;
+            left: 50px;
+            top: 130px;
+            font-family: 'Roboto Slab', serif;
+            color: white;}
+    .backgroundbody{
+        background-color: rgb(224, 219, 219);
+  
+    }
+    .backgroundfooter{
+        background-color: rgb(238, 232, 233);
+       
+    }
+  }
